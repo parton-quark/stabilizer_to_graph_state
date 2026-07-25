@@ -3,8 +3,10 @@
 グラフ状態最適化手法をstabilizer符号の状態準備などに活用することを目指す。
 - 参考: https://arxiv.org/abs/2603.17743 
 
-回路として表現して等価性検証も行う。
-- src/requirements.txtに必要な環境を明記すること。
+- 回路として表現して等価性検証も行う。
+  - stimだけだと不安だったのでqiskitも
+
+- src/requirements.txtに必要な環境が書いてあります。
 
 ## 実装方針
 
