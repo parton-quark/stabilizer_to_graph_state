@@ -4,3 +4,5 @@ networkx
 matplotlib
 qiskit
 mqt.qecc
+ldpc==0.1.60
+bposd==1.6

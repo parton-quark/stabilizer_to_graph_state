@@ -25,7 +25,7 @@
     - CX / CY を使った edge 削減 (論文 Eq. 7, 8) や局所補完 (LC) 最適化。
 - QuSynth (MCTS + RL) による探索。
 
-### 手法
+## 手法
 
 - stabilizer tableau の表現・操作、および回路構築には [Stim](https://github.com/quantumlib/Stim) を使う (論文と同じ基盤)。
   - `stim.Tableau.from_stabilizers(...)` で stabilizer generator の集合から tableau を構築。
