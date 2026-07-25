@@ -1,0 +1,6 @@
+stim>=1.15.0
+numpy
+networkx
+matplotlib
+qiskit
+mqt.qecc
