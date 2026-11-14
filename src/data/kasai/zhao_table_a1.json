@@ -1,0 +1,25 @@
+{
+  "source": "https://arxiv.org/html/2604.16209v2#A1.T1",
+  "paper": "Towards Ultra-High-Rate Quantum Error Correction with Reconfigurable Atom Arrays",
+  "table": "A1, first two examples",
+  "retrieved": "2026-11-13",
+  "description": "Numerical APM coefficients transcribed from Table A1; f_i(x)=a_i*x+b_i mod P. Distances are the paper's best-found upper bounds.",
+  "instances": {
+    "1152": {
+      "modulus": 96,
+      "active_rows": 3,
+      "k": 580,
+      "distance_upper_bound": 12,
+      "f_maps": [[5,41],[85,77],[73,66],[1,0],[1,72],[37,9]],
+      "g_maps": [[61,15],[1,24],[89,62],[25,22],[85,93],[25,78]]
+    },
+    "2304": {
+      "modulus": 192,
+      "active_rows": 3,
+      "k": 1156,
+      "distance_upper_bound": 14,
+      "f_maps": [[71,127],[97,80],[67,117],[163,165],[25,60],[187,33]],
+      "g_maps": [[163,165],[55,183],[167,79],[139,41],[109,78],[31,27]]
+    }
+  }
+}

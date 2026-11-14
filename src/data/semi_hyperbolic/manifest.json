@@ -1,0 +1,8 @@
+{
+  "files": {
+    "bolza16.json": {
+      "sha256": "b1f8a0135d7c52efb7f7423328cb7c18bd5c977115a3856bcf2882b87de4cac0"
+    }
+  },
+  "note": "Numerical base triangle adjacency, not quantum check matrices."
+}

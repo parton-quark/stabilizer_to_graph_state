@@ -185,16 +185,22 @@ def verify_equivalence_qiskit(stabilizers: Sequence[PauliInput], circuit: stim.C
     are reversed before constructing the `qiskit.quantum_info.Pauli` (the overall +/- sign
     is a global attribute of the operator, not tied to qubit position, and is not reversed).
     """
-    from qiskit.quantum_info import Pauli, StabilizerState
+    from qiskit.quantum_info import PauliList, StabilizerState
 
     state = StabilizerState(stim_circuit_to_qiskit(circuit))
+    labels = []
     for pauli_string in _to_pauli_strings(stabilizers):
         label = str(pauli_string)
         sign, letters = label[0], label[1:].replace("_", "I")
-        qiskit_pauli = Pauli(sign + letters[::-1])
-        if state.expectation_value(qiskit_pauli) != 1:
-            return False
-    return True
+        labels.append(sign + letters[::-1])
+    if not labels:
+        return True
+    # Evaluate every observable on U|0...0> in one Qiskit batch: U† P U
+    # has expectation +1 on |0...0> iff it has no X support and phase +1.
+    # This is the same check as scalar expectation_value, without its nested
+    # Python loops for each of thousands of high-weight logical operators.
+    evolved = PauliList(labels).evolve(state.clifford, frame="h")
+    return bool(not np.any(evolved.x) and np.all(evolved.phase == 0))
 
 
 if __name__ == "__main__":

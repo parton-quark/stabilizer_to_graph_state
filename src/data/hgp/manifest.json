@@ -1,0 +1,15 @@
+{
+  "paper": "https://arxiv.org/abs/2501.09622v3",
+  "retrieved": "2026-11-13",
+  "transcription": "Numerical row supports from arXiv ancillary files; hashes identify local transcriptions.",
+  "files": {
+    "625_PEG.txt": {
+      "url": "https://arxiv.org/src/2501.09622v3/anc/HGP_.625,25._PEG.txt",
+      "sha256": "6fae182177f13b78d7951d72ef92e6941f1ef2464091e644eb0667e69bee2cbd"
+    },
+    "625_SA.txt": {
+      "url": "https://arxiv.org/src/2501.09622v3/anc/HGP_.625,25._SA.txt",
+      "sha256": "7c00b74b9aab719f8c66d4942bb335a782746d2148ae90aea5eefcc1e1af614d"
+    }
+  }
+}

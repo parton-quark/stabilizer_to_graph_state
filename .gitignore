@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated notebook benchmark samples
+output/tutorial2/
+.venv-tutorial2/

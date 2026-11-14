@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/a7b/yarn",
+  "commit": "1b58edd24e19b6b5da6814fd3a74ebb376b6e90f",
+  "retrieved": "2026-11-13",
+  "paper": "https://arxiv.org/abs/2607.28795",
+  "files": {
+    "150/Hx.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B150%2C30%2C10%5D%5D/Hx.npy",
+      "sha256": "6e3b88386cb45f017d6a90059926bd6e787ad217ab1bd2ae2c2b8eedfcc8c432"
+    },
+    "150/Hz.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B150%2C30%2C10%5D%5D/Hz.npy",
+      "sha256": "72bb87817fd8c6a23288f7b4274d06aa6ed7216087a6485659156b8519067282"
+    },
+    "150/Lx.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B150%2C30%2C10%5D%5D/Lx.npy",
+      "sha256": "a784d2a259797b836fd34ee3b5167eadf38c55445ae413d26452a34f88de4dbc"
+    },
+    "150/Lz.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B150%2C30%2C10%5D%5D/Lz.npy",
+      "sha256": "7d68dbcbdecb517d06e97f9bdf7ebeeb0be4466c9e60e2786c6bd21fc63cb993"
+    },
+    "200/Hx.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B200%2C40%2C12%5D%5D/Hx.npy",
+      "sha256": "507f23f245eda4094ea35d10866b2ae2ea071a5d6d85c365c46a35984e383862"
+    },
+    "200/Hz.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B200%2C40%2C12%5D%5D/Hz.npy",
+      "sha256": "c1854e63b6db78dd1c0e7480714f9277ab26b239a4cf1aa49044cbf60f2de726"
+    },
+    "200/Lx.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B200%2C40%2C12%5D%5D/Lx.npy",
+      "sha256": "5f182352745def3c95d1ac80699223a63f99d05e9d2f223287de460a244f800f"
+    },
+    "200/Lz.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B200%2C40%2C12%5D%5D/Lz.npy",
+      "sha256": "b8d229263976f52dcc85b82b3e67355053d624c272c1a64f4f07b9bdbc2f5216"
+    },
+    "300/Hx.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B300%2C60%2C14%5D%5D/Hx.npy",
+      "sha256": "ee2fae3943d55946c4e907f66047113422a97a02d85fbaf26b5c047d1153c324"
+    },
+    "300/Hz.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B300%2C60%2C14%5D%5D/Hz.npy",
+      "sha256": "5ca258aa69b2eed5dfc61e57adba1ec8bedee9b8aea41113531d5bd051c6de31"
+    },
+    "300/Lx.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B300%2C60%2C14%5D%5D/Lx.npy",
+      "sha256": "f740858a431b2d23b928bc4264e16b2805010b6d1a09bf535a4b2bf92a592704"
+    },
+    "300/Lz.npy": {
+      "url": "https://raw.githubusercontent.com/a7b/yarn/1b58edd24e19b6b5da6814fd3a74ebb376b6e90f/processor_codes/mitten/%5B%5B300%2C60%2C14%5D%5D/Lz.npy",
+      "sha256": "de95caafa59206359013ed24917da33561fdb593e8a1a38ba5bc7bd936e7f3ce"
+    }
+  }
+}
